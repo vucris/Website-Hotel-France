@@ -1,0 +1,2814 @@
+[2024-05-10 15:02:23] production.ERROR: Non-static method App\BaseModel::findById() cannot be called statically {"userId":6,"exception":"[object] (Error(code: 0): Non-static method App\\BaseModel::findById() cannot be called statically at D:\\laragon\\www\\sondoongtour\\modules\\User\\Admin\\UserController.php:241)
+[stacktrace]
+#0 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): Modules\\User\\Admin\\UserController->store(Object(Illuminate\\Http\\Request), '6')
+#1 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('store', Array)
+#2 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Modules\\User\\Admin\\UserController), 'store')
+#3 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#4 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#5 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\Dashboard.php(25): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\Dashboard->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\RequireChangePassword.php(41): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RequireChangePassword->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\SetLanguageForAdmin.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetLanguageForAdmin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\SetCurrentCurrency.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetCurrentCurrency->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\HideDebugbar.php(32): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\HideDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\RedirectForMultiLanguage.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectForMultiLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#26 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(799): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 D:\\laragon\\www\\sondoongtour\\themes\\Base\\Core\\Middleware\\RunUpdater.php(76): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Themes\\Base\\Core\\Middleware\\RunUpdater->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 D:\\laragon\\www\\sondoongtour\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 D:\\laragon\\www\\sondoongtour\\app\\Http\\Middleware\\RedirectToInstaller.php(40): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RedirectToInstaller->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#59 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#60 D:\\laragon\\www\\sondoongtour\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#61 D:\\laragon\\www\\sondoongtour\\public\\index.php(78): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#62 {main}
+"} 
+[2024-05-10 22:13:48] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=16",
+    "idNotification": "d0e5d6ba-7714-4381-a0f2-091834a211c6",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=16",
+    "idNotification": "ba97e1a5-3620-4825-a3e2-0482b3657dc9",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cannes and Antibes Night Tour was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=15",
+    "idNotification": "22ff2cd0-c754-49f5-aba2-cdea0798d0c4",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Cannes and Antibes Night Tour was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=15",
+    "idNotification": "566ffcb3-1472-4f38-b737-558569c60616",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "San Francisco Express Never Ceases was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=14",
+    "idNotification": "501d6400-ba69-45a8-a05f-583b436d0848",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "San Francisco Express Never Ceases was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=14",
+    "idNotification": "a7b07358-5ad6-4577-bd1d-d05e1500ba93",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hollywood Sign Small Group Tour in Luxury Van was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=13",
+    "idNotification": "97a62d2a-f276-4eca-85c0-69b0389d995b",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Hollywood Sign Small Group Tour in Luxury Van was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=13",
+    "idNotification": "a436367c-57d3-4f3a-be18-c6d3ad001050",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Segway Tour of Washington, D.C. Highlights was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=12",
+    "idNotification": "c16e0b4f-7100-4ce6-b675-24fb0cff14d6",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Segway Tour of Washington, D.C. Highlights was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=12",
+    "idNotification": "13f137c2-161a-4f0b-af7d-d5b26d20daeb",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Trip of New York \u2013 Discover America was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=11",
+    "idNotification": "966df1b9-65ec-437c-9be1-4b81412b9654",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Trip of New York \u2013 Discover America was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=11",
+    "idNotification": "be294fdb-d8fc-498c-ace7-6ea12dbef1b7",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Giverny and Versailles Small Group Day Trip was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=10",
+    "idNotification": "af6889d9-f6c5-4536-9bcc-0ed57014a4ce",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Giverny and Versailles Small Group Day Trip was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=10",
+    "idNotification": "91eef25e-1244-468f-80ff-86771fab59b5",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Tastes and Sounds of the South 2019 was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=9",
+    "idNotification": "6fbf907b-a510-46a0-9db7-b65ece3328b5",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Tastes and Sounds of the South 2019 was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=9",
+    "idNotification": "bacf39a6-9363-46ba-ab2d-253ad96f68df",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Pure Luxe in Punta Mita was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=8",
+    "idNotification": "da71ef26-6ec9-496b-aa65-b07a6e646e98",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Pure Luxe in Punta Mita was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=8",
+    "idNotification": "17250c0e-7a98-44bc-bba3-44f15f4b0e5d",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Eastern Discovery was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=7",
+    "idNotification": "7d9fb31e-3d75-4335-b1ba-87d0f5d9d54d",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Eastern Discovery was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=7",
+    "idNotification": "b151064a-2523-43fd-9bd4-c2a875494260",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Eastern Discovery (Start New Orleans) was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=6",
+    "idNotification": "a4605198-6349-4bf5-8a3b-46ba6f88b9f4",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Eastern Discovery (Start New Orleans) was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=6",
+    "idNotification": "3ff26d2b-e3b3-466e-83ee-5278b9ba502f",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Southwest States (Ex Los Angeles)  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=5",
+    "idNotification": "383acb97-1789-4cc7-9208-ca015a381949",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Southwest States (Ex Los Angeles)  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=5",
+    "idNotification": "72b089a4-87f5-478e-b101-b3d98700d502",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Paris Vacation Travel  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=4",
+    "idNotification": "77c84587-a575-4e58-8016-afb2e863cca1",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Paris Vacation Travel  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=4",
+    "idNotification": "bb3c8bc9-dec1-4abb-b687-02a257999991",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Los Angeles to San Francisco Express  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=3",
+    "idNotification": "fe701364-f48a-4ac1-9d48-d026b8840ee2",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Los Angeles to San Francisco Express  was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=3",
+    "idNotification": "8e9ad497-fe01-444b-bf48-7d1f8b40626f",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "New York: Museum of Modern Art was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=2",
+    "idNotification": "ea250e4f-fc31-4489-913c-19cb8ded4eea",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "New York: Museum of Modern Art was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=2",
+    "idNotification": "22bf6aca-f0fd-444d-8601-9f7d3b586333",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "American Parks Trail end Rapid City was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=1",
+    "idNotification": "8f84a0e1-e2f2-4576-8c52-ef391b74e250",
+    "socket": null
+}  
+[2024-05-10 22:13:49] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "American Parks Trail end Rapid City was updated to Pending by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=1",
+    "idNotification": "df808f8d-53cf-4a16-952a-3520ab317dd3",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:16:15] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: contact@mytravel.com
+Subject: [Son Doong Travel] New booking has been made
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:16:15 +0700
+Message-ID: <d4f752cb2f92d7652643a78dc1d6bff6@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+Administrator</strong></h3>
+                    <p>New booking has been made</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#1</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    18
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>3</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 1
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$6.300</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+     </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6.400=
+</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6=
+.400</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:16:15] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: Vendor 01 <vendor1@mytravel.test>
+Subject: [Son Doong Travel] Your service got new booking
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:16:15 +0700
+Message-ID: <bea733818260cfb5dff09f6925181cf8@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+Vendor</strong></h3>
+                    <p>Your service has new booking</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#1</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    18
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>3</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 1
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$6.300</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+     </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6.400=
+</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6=
+.400</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:16:15] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: voviethung.tk@gmail.com
+Subject: Thank you for booking with us
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:16:15 +0700
+Message-ID: <5cabe6bbdf41ca496a40f83331e0c7bd@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+V=C3=B5 Vi=E1=BB=87t</strong></h3>
+                    <p>Thank you for booking with us. Here are your booking=
+ information:</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#1</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    18
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>3</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 1
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$6.300</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+     </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6.400=
+</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$6=
+.400</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:16:15] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hung Dev IT has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/report\/booking",
+    "idNotification": "a93f3c2b-1dcb-436f-bd73-47f915014031",
+    "socket": null
+}  
+[2024-05-10 22:16:15] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Hung Dev IT has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/vendor\/booking-report",
+    "idNotification": "fb3b90f4-b696-4255-a5a0-644eed665e87",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:25:35] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: contact@mytravel.com
+Subject: [Son Doong Travel] New booking has been made
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:25:35 +0700
+Message-ID: <806afdd4598d798d583c32d4c8aa6cd3@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+Administrator</strong></h3>
+                    <p>New booking has been made</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#2</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    17
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>5</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 2
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$11.900</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+             <tr>
+                            <td class=3D"label">
+                                Coupon
+                            </td>
+                            <td class=3D"val">
+                                -$200
+                            </td>
+                        </tr>
+                                    </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$11.80=
+0</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$1=
+1.800</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:25:35] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: Vendor 01 <vendor1@mytravel.test>
+Subject: [Son Doong Travel] Your service got new booking
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:25:35 +0700
+Message-ID: <1ac921472c62dc918b60b825011150a4@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+Vendor</strong></h3>
+                    <p>Your service has new booking</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#2</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    17
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>5</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 2
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$11.900</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+             <tr>
+                            <td class=3D"label">
+                                Coupon
+                            </td>
+                            <td class=3D"val">
+                                -$200
+                            </td>
+                        </tr>
+                                    </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$11.80=
+0</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$1=
+1.800</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:25:35] production.DEBUG: From: My Travel <contact@mytravel.com>
+To: voviethung.tk@gmail.com
+Subject: Thank you for booking with us
+MIME-Version: 1.0
+Date: Fri, 10 May 2024 22:25:35 +0700
+Message-ID: <1a17c7a291201eb3184e68a0b7988124@mytravel.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <link rel=3D'stylesheet' id=3D'google-font-css-css'  href=3D'https:=
+//fonts.googleapis.com/css?family=3DPoppins%3A400%2C500%2C600' type=3D'text=
+/css' media=3D'all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class=3D"b-email-wrap">
+            <div class=3D"" style=3D"">
+    <div class=3D"b-container">
+        <div class=3D"b-header">
+                        <h1 class=3D"site-title" style=3D"text-align: cente=
+r">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+           =20
+    <div class=3D"b-container">
+        <div class=3D"b-panel">
+                                <h3 class=3D"email-headline"><strong>Hello =
+V=C3=B5 Vi=E1=BB=87t</strong></h3>
+                    <p>Thank you for booking with us. Here are your booking=
+ information:</p>
+               =20
+            <div class=3D"b-panel-title">Hotel information</div>
+<div class=3D"b-table-wrap">
+    <table class=3D"b-table" cellspacing=3D"0" cellpadding=3D"0">
+        <tr>
+            <td class=3D"label">Booking Number</td>
+            <td class=3D"val">#2</td>
+        </tr>
+        <tr>
+            <td class=3D"label">Booking Status</td>
+            <td class=3D"val">Processing</td>
+        </tr>
+                    <tr>
+                <td class=3D"label">Payment method</td>
+                <td class=3D"val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Hotel name</td>
+            <td class=3D"val">
+                <a href=3D"http://sondoongtour.test/hotel/hotel-stanford">H=
+otel Stanford</a>
+            </td>
+        </tr>
+        <tr>
+                            <td class=3D"label">Address</td>
+                <td class=3D"val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class=3D"label">Check in</td>
+                <td class=3D"val">05/10/2024</td>
+            </tr>
+            <tr>
+                <td class=3D"label">Check out:</td>
+                <td class=3D"val">
+                    05/10/2024
+                </td>
+            </tr>
+            <tr>
+                <td class=3D"label">Nights:</td>
+                <td class=3D"val">
+                    17
+                </td>
+            </tr>
+       =20
+                    <tr>
+                <td class=3D"label">Adults:</td>
+                <td class=3D"val">
+                    <strong>5</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class=3D"label">Pricing</td>
+            <td class=3D"val">
+                <table class=3D"pricing-list" width=3D"100%">
+                                                                           =
+                 <tr>
+                                <td class=3D"label">Room Kerama Islands * 2
+                                    :</td>
+                                <td class=3D"val no-r-padding">
+                                    <strong>$11.900</strong>
+                                </td>
+                            </tr>
+                                                               =20
+                   =20
+                                                                           =
+                                             <tr>
+                                <td class=3D"label">
+                                    Service fee
+                                    <i class=3D"icofont-info-circle" data-t=
+oggle=3D"tooltip" data-placement=3D"top" title=3D"This helps us run our pla=
+tform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class=3D"val">
+                                                                           =
+ $100
+                                                                    </td>
+                            </tr>
+                                                                           =
+             <tr>
+                            <td class=3D"label">
+                                Coupon
+                            </td>
+                            <td class=3D"val">
+                                -$200
+                            </td>
+                        </tr>
+                                    </table>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Total</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$11.80=
+0</strong></td>
+        </tr>
+        <tr>
+            <td class=3D"label fsz21">Paid</td>
+            <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$0</st=
+rong></td>
+        </tr>
+                    <tr>
+                <td class=3D"label fsz21">Remain</td>
+                <td class=3D"val fsz21"><strong style=3D"color: #FA5636">$1=
+1.800</strong></td>
+            </tr>
+            </table>
+</div>
+<div class=3D"text-center mt20">
+    <a href=3D"http://sondoongtour.test/user/booking-history" target=3D"_bl=
+ank" class=3D"btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class=3D"b-panel">
+    <div class=3D"b-panel-title">Customer information</div>
+    <div class=3D"b-table-wrap">
+        <div class=3D"b-table b-table-div">
+            <div class=3D"info-first-name b-tr">
+                <div class=3D"label">First name</div>
+                <div class=3D"val">V=C3=B5 Vi=E1=BB=87t</div>
+            </div>
+            <div class=3D"info-last-name b-tr" style=3D"clear: both">
+                <div class=3D"label">Last name</div>
+                <div class=3D"val">H=C3=B9ng</div>
+            </div>
+            <div class=3D"info-email b-tr">
+                <div class=3D"label">Email</div>
+                <div class=3D"val">voviethung.tk@gmail.com</div>
+            </div>
+            <div class=3D"info-phone b-tr">
+                <div class=3D"label">Phone</div>
+                <div class=3D"val">0824970304</div>
+            </div>
+            <div class=3D"info-address b-tr">
+                <div class=3D"label">Address line 1</div>
+                <div class=3D"val">Phong Nha</div>
+            </div>
+            <div class=3D"info-address2 b-tr">
+                <div class=3D"label">Address line 2</div>
+                <div class=3D"val">Phong Nha Vip</div>
+            </div>
+            <div class=3D"info-city b-tr">
+                <div class=3D"label">City</div>
+                <div class=3D"val">=C4=90=E1=BB=93ng H=E1=BB=9Bi</div>
+            </div>
+            <div class=3D"info-state b-tr">
+                <div class=3D"label">State/Province/Region</div>
+                <div class=3D"val">100</div>
+            </div>
+            <div class=3D"info-zip-code b-tr">
+                <div class=3D"label">ZIP code/Postal code</div>
+                <div class=3D"val">100000</div>
+            </div>
+            <div class=3D"info-country b-tr">
+                <div class=3D"label">Country</div>
+                <div class=3D"val">Viet Nam</div>
+            </div>
+            <div class=3D"info-notes b-tr">
+                <div class=3D"label">Special Requirements</div>
+                <div class=3D"val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+            <div class=3D"b-footer" style=3D"margin-top: 0px;">
+    <div class=3D"b-container">
+        <p class=3D"" style=3D"text-align: center">&copy; 2021 My Travel. A=
+ll rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2024-05-10 22:25:35] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hung Dev IT has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/report\/booking",
+    "idNotification": "fd01b626-3da2-4498-9bbd-fed914a9ec86",
+    "socket": null
+}  
+[2024-05-10 22:25:35] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Hung Dev IT has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/vendor\/booking-report",
+    "idNotification": "f13a288a-f875-4b28-8cb6-eda78e282988",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:28:39] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hung Dev IT has created a Review FB V\u00d5 VI\u1ec6T H\u00d9NG HI HI on Hotel Stanford",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/review",
+    "idNotification": "3520b858-a579-472a-8df0-ef03ca98382d",
+    "socket": null
+}  
+[2024-05-10 22:28:39] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Hung Dev IT has created a Review FB V\u00d5 VI\u1ec6T H\u00d9NG HI HI on Hotel Stanford",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/review",
+    "idNotification": "85b62dd7-1ccf-4d58-af7b-88d5e410b0a9",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-10 22:29:06] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hung Dev IT has created a Review https:\/\/www.facebook.com\/VoVietHung.IT on Hotel Stanford",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/review",
+    "idNotification": "9eda850a-6343-424d-90c9-02df3ab682e2",
+    "socket": null
+}  
+[2024-05-10 22:29:06] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Hung Dev IT has created a Review https:\/\/www.facebook.com\/VoVietHung.IT on Hotel Stanford",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/review",
+    "idNotification": "490c29dd-f17f-4d97-b76e-dee388ab39c7",
+    "userId": 1,
+    "socket": null
+}  

@@ -1,0 +1,24 @@
+[2024-05-21 14:09:35] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Botanical Garden \u2013 Phong Nha Cave \u2013 Dark Cave Tour was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=20",
+    "idNotification": "201c9a79-34af-4d2f-a1b2-5ac0a1bed8e8",
+    "socket": null
+}  
+[2024-05-21 14:09:56] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Botanical Garden \u2013 Paradise Cave \u2013 Phong Nha Cave Tour was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=18",
+    "idNotification": "537daac7-e084-4c3d-b8f9-66ac2b48da69",
+    "socket": null
+}  
+[2024-05-21 15:58:07] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Hung Dev IT has created tour testsssss",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour\/edit\/22",
+    "idNotification": "d068c558-4e15-44ec-8660-d8da76f267c6",
+    "socket": null
+}  

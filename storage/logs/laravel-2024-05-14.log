@@ -1,0 +1,34 @@
+[2024-05-14 18:21:14] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=16",
+    "idNotification": "5dbd9d9c-3885-479e-8604-f469438eef3b",
+    "socket": null
+}  
+[2024-05-14 18:21:14] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=16",
+    "idNotification": "33c54f45-a363-4486-8002-4229a46e95a7",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-14 18:21:25] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/tour?id=16",
+    "idNotification": "4003337e-93e7-45ae-be60-4c30545b6ac1",
+    "socket": null
+}  
+[2024-05-14 18:21:25] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "River Cruise Tour on the Seine was updated to Publish by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/tour?id=16",
+    "idNotification": "90450a35-926a-48ac-822c-a56a1288dc45",
+    "userId": 1,
+    "socket": null
+}  

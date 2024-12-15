@@ -1,0 +1,415 @@
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Fadil Standard was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=13",
+    "idNotification": "90ffc7ac-fca3-48da-b02a-9ba54218063b",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Fadil Standard was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=13",
+    "idNotification": "e5594a63-9ab9-4d62-b566-732d2054cf92",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Lux A2.0 Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=12",
+    "idNotification": "af93795d-844a-41ff-8a50-c1977599504c",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Lux A2.0 Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=12",
+    "idNotification": "471268b6-1b70-4fd3-b4c7-71a2f1925ee7",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Lux V8 (SUV) was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=11",
+    "idNotification": "42ef320c-0e92-47e1-9ae1-e0d844e844ef",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Lux V8 (SUV) was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=11",
+    "idNotification": "22ff0f31-6e02-4ae6-bf1f-72dee6f782b0",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Toyota Prius Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=10",
+    "idNotification": "42f92f3f-f70b-43f0-8d50-a69e62f9f780",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Toyota Prius Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=10",
+    "idNotification": "c55bad56-ae19-4906-b176-7c923c6546ed",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Honda Civic was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=9",
+    "idNotification": "c2c792c0-cbf4-47f6-ae10-2613cb5583ab",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Honda Civic was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=9",
+    "idNotification": "44df137d-731e-48c4-b410-fa33f6a6bdac",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Lux SA2.0 Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=8",
+    "idNotification": "c861e70a-5c67-4074-a013-bb3a33e0cb65",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Lux SA2.0 Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=8",
+    "idNotification": "fd08f570-d372-4f4f-bcf0-d509ace9afc3",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Mercedes Benz was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=7",
+    "idNotification": "7e8f8ba7-98c0-4998-bd4f-feb8c37c16ab",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Mercedes Benz was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=7",
+    "idNotification": "53fd59f1-e9c1-4af4-b238-d4dbae320df6",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vinfast Fadil Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=6",
+    "idNotification": "b28507ba-7569-4511-b722-b28f7f6ab018",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Vinfast Fadil Plus was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=6",
+    "idNotification": "2e8e38f0-bb0b-4070-94db-618314f30a8c",
+    "userId": 2,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Audi S3 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=5",
+    "idNotification": "afa55b27-a000-45a8-8ba5-4087a7b23b90",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "2019 Audi S3 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=5",
+    "idNotification": "d95990d9-86d7-4eba-9d40-d17ee10eff46",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 BMW M6 Gran Coupe was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=4",
+    "idNotification": "ccc49ef7-1632-4e52-96dd-f22d118d1a75",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "2019 BMW M6 Gran Coupe was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=4",
+    "idNotification": "c2a9367c-4376-4715-a26e-0671a4ef38f8",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Honda Clarity was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=3",
+    "idNotification": "03564980-6e0e-474c-8115-d107775ac13c",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "2019 Honda Clarity was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=3",
+    "idNotification": "6273b123-9a13-43f3-91d8-80cb9fb45749",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "2019 Honda Clarity was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=2",
+    "idNotification": "c88745e9-1f3f-4f49-b026-6e2fdf15b528",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "2019 Honda Clarity was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=2",
+    "idNotification": "c182a024-ea93-4c46-ac9f-94d2156fd312",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "BMW-X6-facelift was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/car?id=1",
+    "idNotification": "8b32d94a-8782-4e59-b1c3-e46cc6080ae4",
+    "socket": null
+}  
+[2024-05-11 13:52:16] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "BMW-X6-facelift was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/car?id=1",
+    "idNotification": "3edd623f-f58b-4fd0-a157-5e837cbd42b4",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "My Way 100 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=13",
+    "idNotification": "0997abeb-8505-4311-8433-24ba8845529f",
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "My Way 100 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Lynne Victoria\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=13",
+    "idNotification": "bf3cee76-2a2a-4bd6-bfaf-d3ca74ae6ddb",
+    "userId": 5,
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Ohana 3X was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=12",
+    "idNotification": "35f0ca47-7909-4526-8836-b20b6b159fe7",
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "Ohana 3X was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Lynne Victoria\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=12",
+    "idNotification": "dc349f9f-c5fb-4a82-92ab-a7ac9c0367d9",
+    "userId": 5,
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Freedom M2 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=11",
+    "idNotification": "372631ca-f333-4acb-8ae8-be67bd6797a1",
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Endless Summer W-10 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=10",
+    "idNotification": "1cf7dc98-2bee-4334-836d-e7a14c31b8ed",
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Destiny 6 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=9",
+    "idNotification": "5524a82a-22d9-4eb7-9250-fa30d12bee88",
+    "socket": null
+}  
+[2024-05-11 13:52:45] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "Destiny 6 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Lynne Victoria\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=9",
+    "idNotification": "cfdf6743-d3fc-4543-9472-3da0131f0971",
+    "userId": 5,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Carpe Diem LA was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=8",
+    "idNotification": "e9a60955-6456-43dd-b2a9-a9fe1654813c",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Blue Moon YC-300 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=7",
+    "idNotification": "f0a0e032-4e4a-4bbe-b171-63141a8a5925",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "Blue Moon YC-300 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Lynne Victoria\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=7",
+    "idNotification": "6dc558c9-0065-4bb4-b91f-00c05fbe5e1c",
+    "userId": 5,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Blue Dream TC-20 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=6",
+    "idNotification": "02114a76-aca8-42bf-8b6b-016553332445",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "Blue Dream TC-20 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Lynne Victoria\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=6",
+    "idNotification": "abc9a4a9-5120-4dcc-9931-82f8cd5ea6c5",
+    "userId": 5,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Andiamo MX-3 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=5",
+    "idNotification": "e05d21c9-70f3-49bb-be69-7f4cbad46b23",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Andiamo MX-3 was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=5",
+    "idNotification": "4f4068fe-b5ea-42ea-949d-aa0d553aba8c",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "BOAT 1992 ALISON was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=4",
+    "idNotification": "22b10f6c-f48b-46a1-9921-87d7d3cff4f7",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "BOAT 1992 ALISON was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=4",
+    "idNotification": "54d7c2c5-38b1-492a-a5b9-4ae285ddbebc",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Blue Moon Cruising was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=3",
+    "idNotification": "c4760fc2-750e-496c-a267-e93e1d0a9688",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Blue Moon Cruising was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=3",
+    "idNotification": "5abe6606-dd85-4f6f-aa3f-08ea4f991c96",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Summer Breeze was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=2",
+    "idNotification": "66207f27-c9ae-4e62-ae78-db4afdcf2b7d",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Summer Breeze was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=2",
+    "idNotification": "ea6a6195-8191-4d91-bf55-76d6d98e8dc0",
+    "userId": 1,
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Cruising Yacht was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/uploads\/0000\/6\/2024\/05\/10\/38cccf433660ef5f11a0bc2e827c9282.jpg\" alt=\"Hung Dev IT\">",
+    "link": "http:\/\/sondoongtour.test\/admin\/module\/boat?id=1",
+    "idNotification": "2849d03f-3b8b-44e9-b8fa-ef107aa81c37",
+    "socket": null
+}  
+[2024-05-11 13:52:46] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-1] with payload:
+{
+    "message": "Cruising Yacht was updated to Draft by Hung Dev IT",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/sondoongtour.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/sondoongtour.test\/user\/boat?id=1",
+    "idNotification": "484faa42-1dbf-4aff-91bf-924ff0e39380",
+    "userId": 1,
+    "socket": null
+}  
